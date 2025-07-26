@@ -1,0 +1,20 @@
+header {
+  background: linear-gradient(90deg, #0066ff 0%, #00c6ff 100%);
+  color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 16px rgba(0,102,255,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffe082;
+}
